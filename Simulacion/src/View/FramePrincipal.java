@@ -2,7 +2,6 @@ package View;
 
 import Controller.Controller;
 import Model.Module;
-import net.miginfocom.swing.MigLayout;
 
 import javax.swing.*;
 import javax.swing.JScrollPane;

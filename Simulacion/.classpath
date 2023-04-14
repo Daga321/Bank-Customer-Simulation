@@ -6,6 +6,5 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/DAGA/Eclipse proyects/Taller grupal hilos progra 3/Simulacion/miglayout15-swing.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
