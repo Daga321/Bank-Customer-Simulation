@@ -45,7 +45,6 @@ public class RunnablePersonMovement implements Runnable{
             management.deletePerson(person);
         } catch (Exception e) {
         	management.deleteFromQueue(person);
-//        	System.out.println("Destrabado");
         	goodBay();
         	management.deletePerson(person);
         }
@@ -160,6 +159,7 @@ public class RunnablePersonMovement implements Runnable{
             down(person.getY()-5+((person.getChairPosition()-3)*40));
         }
     }
+    
     private void queue() {
         while (person.getQueuePosition()!=0) {//person.getY()!=200 && (person.getX()!=637 || person.getX()!=517)
             try {

@@ -60,7 +60,6 @@ public class Management {
         personList.remove(person);
     }
     public void deleteFromQueue(Person person) {
-//    	System.out.println("¡¡¡¡DELETE!!!!!");
         queueList.get(2).remove(person);
     }
 
@@ -193,7 +192,7 @@ public class Management {
                 person = new Person(id, Name.values()[pick], new Color(255,128,0), Module.valueOf(module), dateA ,false, this);
             }
             personList.add(person);
-            return "Señor(a): " + Name.values()[pick]+ " C.C: "+id + "    Turno Asignado Correctamente" + "\n" + "Verifique su turno en el modulo " + module + "\n";
+            return "Seï¿½or(a): " + Name.values()[pick]+ " C.C: "+id + "    Turno Asignado Correctamente" + "\n" + "Verifique su turno en el modulo " + module + "\n";
 
         } catch (Exception e) {
             e.printStackTrace();
